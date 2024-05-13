@@ -10,11 +10,11 @@
 
 ## login-form-main
 
-![](/login-forms/![](/login-forms/login-form-main/preview.png)
+![](/login-forms/login-form-main/preview.png)
 
 ## login-form-with-details
 
-![](/login-forms/![](/login-forms/login-form-with-details/preview.png)
+![](/login-forms/login-form-with-details/preview.png)
 
 
 
