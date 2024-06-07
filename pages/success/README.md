@@ -1,4 +1,4 @@
 # Success HTML page
 
-![preview img](/img/success.png)
+![preview img](img/success.png)
 
