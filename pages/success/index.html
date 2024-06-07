@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Font OpenSans from google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            text-align: center;
+            background: #EBF0F5;
+            font-family: "Open Sans", "Helvetica Neue", sans-serif;
+        }
+
+        .center-screen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 95vh;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        .mycard {
+            background: white;
+            padding: 60px;
+            border-radius: 4px;
+            box-shadow: 0 2px 3px #C8D0D8;
+            margin: 0 auto;
+        }
+
+        .check_mark {
+            color: #9ABC66;
+            font-weight: 900;
+            font-size: 7rem;
+            line-height: 12rem;
+        }
+
+        h1 {
+            color: #88B04B;
+            font-weight: 900;
+            margin-bottom: 10px;
+        }
+
+        h1,
+        .h1 {
+            font-size: calc(1.375rem + 1.5vw);
+        }
+
+        @media (min-width: 1200px) {
+
+            h1,
+            .h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+        p {
+            color: #404F5E;
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        .mybutton {
+            margin-top: 40px;
+            background-color: #25D366;
+            background: -webkit-gradient(linear, left bottom, left top, from(#1db537), to(#56d263));
+            background: -o-linear-gradient(bottom, #1db537 0%, #56d263 100%);
+            background: linear-gradient(0deg, #1db537 0%, #56d263 100%);
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: 900;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #4dd4ac;
+            border-radius: 5px;
+            box-shadow: 0 2px 3px #C8D0D8;
+            /* box-shadow: inset 0 0 8px rgba(0,0,0,.25); */
+        }
+
+        .foreground {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .foreground:hover {
+            backdrop-filter: brightness(80%);
+            -webkit-backdrop-filter: brightness(80%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center-screen">
+        <div class="mycard">
+            <div style="display: flex; flex-direction: column;">
+                <div style="border-radius:50%; height:12rem; width:12rem; background: #F8FAF5; margin:0 auto;">
+                    <span class="check_mark">&check;</span>
+                </div>
+                <h1>Success</h1>
+                <p>We received your purchase request; we'll be in touch shortly!</p>
+                <div class="mybutton">
+                    <div class="foreground">return to homepage</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
